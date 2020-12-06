@@ -1,1 +1,1 @@
-# DeepAligned-Clustering
+# Deep Aligned Clustering
