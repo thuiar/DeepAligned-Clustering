@@ -21,13 +21,9 @@ If you are instrested in this work, please star this repository and cite by:
 ```
 pip install -r requirements.txt
 ```
-
 2. Get the pre-trained [BERT](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip) model and convert it into [Pytorch](https://huggingface.co/transformers/converting_tensorflow_models.html) 
 
-
-3. Implementation
-
-Run the experiments by: 
+3. Run the experiments by: 
 ```
 sh run.sh
 ```
