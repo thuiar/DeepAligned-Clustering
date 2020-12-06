@@ -1,6 +1,6 @@
 # Discovering New Intents with Deep Aligned Clustering
 
-An alignment strategy for clustering with deep neural networks.
+An alignment strategy for deep clustering to discover new intents. 
 
 ## Introduction
 This repository provides the PyTorch implementation of the research paper [Discovering New Intents with Deep Aligned Clustering](https://arxiv.org/abs/1711.10125) (**Accepted by [AAAI2021](https://xxx)**).
