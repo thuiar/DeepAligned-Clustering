@@ -5,7 +5,7 @@ An alignment strategy for clustering with deep neural networks.
 ## Introduction
 This repository provides the PyTorch implementation of the research paper [Discovering New Intents with Deep Aligned Clustering](https://arxiv.org/abs/1711.10125) (**Accepted to [AAAI2021](https://xxx)**).
 
-If you are instrested in this work, please **star** and **cite** with the following reference:
+If you are instrested in this work, please star this repository and cite by:
 ```
 @inproceedings{xxx,
 	title =	    {Discovering New Intents with DeepAligned Clustering},
