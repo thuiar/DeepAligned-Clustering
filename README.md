@@ -1,1 +1,1 @@
-# Deep Aligned Clustering
+# Discovering New Intents with Deep Aligned Clustering
