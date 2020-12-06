@@ -17,13 +17,13 @@ If you are instrested in this work, please star this repository and cite by:
 ```
 
 ## Usage
-1. Install all required library
+Install all required library
 ```
 pip install -r requirements.txt
 ```
-2. Get the pre-trained [BERT](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip) model and convert it into [Pytorch](https://huggingface.co/transformers/converting_tensorflow_models.html) 
+Get the pre-trained [BERT](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip) model and convert it into [Pytorch](https://huggingface.co/transformers/converting_tensorflow_models.html) 
 
-3. Run the experiments by: 
+Run the experiments by: 
 ```
 sh run.sh
 ```
@@ -31,6 +31,7 @@ or
 ```
 python DeepAligned.py --dataset clinc --fraction_of_clusters 1 --known_class_ratio 0.75
 ```
+Selected Parameters
 ```
 dataset: clinc | banking
 factor_of_clusters: 1 (default) | 2 | 3 | 4 
