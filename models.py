@@ -18,7 +18,7 @@ class BertForModel(BertPreTrainedModel):
         pooled_output = self.activation(pooled_output)
         pooled_output = self.dropout(pooled_output)        
         logits = self.classifier(pooled_output)
-#         logits_norm = F.normalize(logits, p=2, dim=1)
+
         if feature_ext:
             return pooled_output
         elif mode == 'train':
