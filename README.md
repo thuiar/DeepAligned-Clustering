@@ -7,12 +7,11 @@ This repository provides the PyTorch implementation of the research paper Discov
 
 If you are instrested in this work, please star this repository and cite by:
 ```
-@inproceedings{xxx,
+@inproceedings{deepaligned,
 	title =	    {Discovering New Intents with DeepAligned Clustering},
 	author =    {Zhang, Hanlei and Xu, Hua and Lin, Ting-En and Lv Rui},
 	booktitle = {Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI)},
 	year =      {2021},
-	url =       xxx
 }
 ```
 
