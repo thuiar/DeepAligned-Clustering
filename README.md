@@ -3,7 +3,7 @@
 A deep aligned clustering method to discover new intents. 
 
 ## Introduction
-This repository provides the PyTorch implementation of the research paper [Discovering New Intents with Deep Aligned Clustering](https://xxx) (**Accepted by [AAAI2021](https://aaai.org/Conferences/AAAI-21/)**).
+This repository provides the PyTorch implementation of the research paper Discovering New Intents with Deep Aligned Clustering (**Accepted by [AAAI2021](https://aaai.org/Conferences/AAAI-21/)**).
 
 If you are instrested in this work, please star this repository and cite by:
 ```
