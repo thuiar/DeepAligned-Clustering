@@ -24,7 +24,7 @@ Get the pre-trained [BERT](https://storage.googleapis.com/bert_models/2018_10_18
 
 Run the experiments by: 
 ```
-sh run.sh
+sh scripts/run_pre_align.sh
 ```
 or
 ```
