@@ -46,7 +46,6 @@ class ModelManager:
         self.optimizer = self.get_optimizer(args)
 
         self.best_eval_score = 0
-        self.delta = None
         self.centroids = None
 
         self.test_results = None
