@@ -47,7 +47,6 @@ class ModelManager:
 
         self.best_eval_score = 0
         self.delta = None
-        self.delta_points = []
         self.centroids = None
 
         self.test_results = None
