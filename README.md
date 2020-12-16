@@ -37,7 +37,7 @@ factor_of_clusters: 1 (default) | 2 | 3 | 4
 known_class_ratio: 0.25 | 0.5 | 0.75 (default)
 ```
 The model architecture of DeepAligned:
-![Model](model.pdf)
+![Model](model.png)
 
 
 ##  Results
