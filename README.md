@@ -71,5 +71,4 @@ The model architecture of DeepAligned:
 
 
 ### Acknowledgments
-This paper is founded by National Natural Science Foundation of China and National Key R&D Program Projects of China.  
-This work is also supported by seed fund of Tsinghua University (Department of Computer Science and Technology)-Siemens Ltd., China Joint Research Center for Industrial Intelligence and Internet of Things.
+This paper is founded by National Natural Science Foundation of China and National Key R&D Program Projects of China. This work is supported by seed fund of Tsinghua University (Department of Computer Science and Technology)-Siemens Ltd., China Joint Research Center for Industrial Intelligence and Internet of Things.
