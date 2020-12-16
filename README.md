@@ -71,4 +71,4 @@ The model architecture of DeepAligned:
 
 
 ### Acknowledgments
-This paper is founded by National Natural Science Foundation of China and National Key R&D Program Projects of China. 
+This paper is founded by National Natural Science Foundation of China, etc. 
