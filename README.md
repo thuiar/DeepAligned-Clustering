@@ -3,17 +3,7 @@
 A deep aligned clustering method to discover new intents. 
 
 ## Introduction
-This repository provides the PyTorch implementation of the research paper Discovering New Intents with Deep Aligned Clustering (**Accepted by [AAAI2021](https://aaai.org/Conferences/AAAI-21/)**).
-
-If you are instrested in this work, please star this repository and cite by:
-```
-@inproceedings{deepaligned,
-	title =	    {Discovering New Intents with DeepAligned Clustering},
-	author =    {Zhang, Hanlei and Xu, Hua and Lin, Ting-En and Lv Rui},
-	booktitle = {Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI)},
-	year =      {2021},
-}
-```
+This repository provides the PyTorch implementation of the research paper [Discovering New Intents with Deep Aligned Clustering](https://arxiv.org/pdf/2012.08987.pdf) (**Accepted by [AAAI2021](https://aaai.org/Conferences/AAAI-21/)**).
 
 ## Usage
 Install all required library
@@ -68,7 +58,15 @@ The model architecture of DeepAligned:
 | Pre + Reinit      | 82.90 | 45.67 | 55.80 | 68.12 | 31.56 | 41.32 | 
 | Pre + Align   | __93.89__ | __79.75__ | __86.49__ | __79.56__ | __53.64__ | __64.90__ | 
 
-
+If you are instrested in this work, please star this repository and cite by:
+```
+@inproceedings{deepaligned,
+	title =	    {Discovering New Intents with DeepAligned Clustering},
+	author =    {Zhang, Hanlei and Xu, Hua and Lin, Ting-En and Lv Rui},
+	booktitle = {Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI)},
+	year =      {2021},
+}
+```
 
 ### Acknowledgments
 This paper is founded by National Natural Science Foundation of China, etc. 
