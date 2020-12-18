@@ -62,7 +62,7 @@ This paper is to appear at the Thirty-Fifth AAAI Conference on Artificial Intell
 
 If you are instrested in this work, please **star** this repository and cite by. 
 ```
-@misc{zhang2020discovering,
+@article{zhang2020discovering,
       title={Discovering New Intents with Deep Aligned Clustering}, 
       author={Hanlei Zhang and Hua Xu and Ting-En Lin and Rui Lv},
       year={2020},
