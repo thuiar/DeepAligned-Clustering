@@ -59,6 +59,7 @@ The model architecture of DeepAligned:
 | Pre + Align   | __93.89__ | __79.75__ | __86.49__ | __79.56__ | __53.64__ | __64.90__ | 
 
 This paper is to appear at the Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI2021). We release an arXiv version [here](https://arxiv.org/pdf/2012.08987.pdf).
+
 If you are instrested in this work, please **star** this repository and cite by. 
 ```
 @misc{zhang2020discovering,
