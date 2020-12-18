@@ -32,7 +32,7 @@ The model architecture of DeepAligned:
 
 ##  Results
 ### Main experiments
-| Method   |       | CLINC |       |       |BANKING|       | 
+| Dataset   |       | CLINC |       |       |BANKING|       | 
 |:--------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | Method   |  NMI  |  ARI  |  ACC  |  NMI  |  ARI  |  ACC  | 
 | KM       | 70.89 | 26.86 | 45.06 | 54.57 | 12.18 | 29.55 | 
