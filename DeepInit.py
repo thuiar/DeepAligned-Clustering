@@ -196,7 +196,7 @@ class ModelManager:
             os.makedirs(args.save_results_path)
 
         var = [args.dataset, args.method, args.known_cls_ratio, args.labeled_ratio, args.cluster_num_factor, args.seed, self.num_labels]
-        names = ['task_name', 'method', 'known_cls_ratio', 'labeled_ratio', 'fraction','seed', 'pred_num']
+        names = ['dataset', 'method', 'known_cls_ratio', 'labeled_ratio', 'cluster_num_factor','seed', 'cluster_num']
         vars_dict = {k:v for k,v in zip(names, var) }
         results = dict(self.test_results,**vars_dict)
         keys = list(results.keys())
