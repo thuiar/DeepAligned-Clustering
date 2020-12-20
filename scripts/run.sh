@@ -7,12 +7,6 @@ do
         --known_cls_ratio 0.75 \
         --cluster_num_factor 1 \
         --seed $s \
-        --num_train_epochs 100 \
-        --num_pretrain_epochs 100 \
-        --lr 5e-5 \
-        --lr_pre 5e-5 \
-        --gpu_id 0 \
-        --save_results \
         --freeze_bert_parameters \
         --pretrain
 done
