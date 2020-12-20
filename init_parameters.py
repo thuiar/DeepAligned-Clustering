@@ -33,7 +33,7 @@ def init_model():
     parser.add_argument("--dataset", default=None, type=str, required=True, 
                         help="The name of the task to train selected")
     
-    parser.add_argument("--known_cls_ratio", default=0.75, type=float, required=True, help="The number of known classes categories")
+    parser.add_argument("--known_cls_ratio", default=0.75, type=float, required=True, help="The number of known classes")
     
     parser.add_argument("--cluster_num_factor", default=1.0, type=float, required=True, help="The factor (magnification) of the number of clusters K")
 
