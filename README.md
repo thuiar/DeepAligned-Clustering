@@ -6,10 +6,12 @@ A deep aligned clustering method to discover new intents.
 This repository provides the PyTorch implementation of the research paper [Discovering New Intents with Deep Aligned Clustering](https://arxiv.org/pdf/2012.08987.pdf) (**Accepted by [AAAI2021](https://aaai.org/Conferences/AAAI-21/)**).
 
 ## Usage
+<!--
 Install all required library
 ```
 pip install -r requirements.txt
 ```
+-->
 Get the pre-trained [BERT](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip) model and convert it into [Pytorch](https://huggingface.co/transformers/converting_tensorflow_models.html) 
 
 Run the experiments by: 
