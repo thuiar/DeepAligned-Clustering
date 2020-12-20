@@ -27,7 +27,7 @@ def init_model():
 
     parser.add_argument("--save_results", action="store_true", help="save test results")
 
-    parser.add_argument("--pretrain", action="store_true", help="save test results")
+    parser.add_argument("--pretrain", action="store_true", help="use pre-trained features")
     
 
     parser.add_argument("--dataset", default=None, type=str, required=True, 
