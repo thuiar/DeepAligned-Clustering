@@ -58,7 +58,7 @@ The model architecture of DeepAligned:
 
 This work is to appear at the [Thirty-Fifth AAAI Conference on Artificial Intelligence](https://aaai.org/Conferences/AAAI-21/) (AAAI2021). An arXiv version for our paper is released [here](https://arxiv.org/pdf/2012.08987.pdf).
 
-If you are instrested in this work, please **star** this repository and cite by. 
+If you are instrested in this work, please **<star>** this repository and **<cite>** by. 
 ```
 @article{zhang2020discovering,
       title={Discovering New Intents with Deep Aligned Clustering}, 
