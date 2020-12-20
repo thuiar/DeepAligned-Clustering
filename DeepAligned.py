@@ -124,8 +124,7 @@ class ModelManager:
         print('confusion matrix',cm)
         self.test_results = results
         
-        if args.save_results:
-            self.save_results(args)
+        self.save_results(args)
 
     def alignment(self, km, args):
 
