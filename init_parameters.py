@@ -25,8 +25,6 @@ def init_model():
 
     parser.add_argument("--save_model", action="store_true", help="Save trained model.")
 
-    parser.add_argument("--save_results", action="store_true", help="Save test results.")
-
     parser.add_argument("--pretrain", action="store_true", help="Pre-train the model with labeled data.")
     
 
