@@ -12,13 +12,9 @@ Install all required library
 pip install -r requirements.txt
 ```
 -->
-Get the pre-trained [BERT](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip) model and convert it into [Pytorch](https://huggingface.co/transformers/converting_tensorflow_models.html) 
+Get the pre-trained [BERT](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip) model and convert it into [Pytorch](https://huggingface.co/transformers/converting_tensorflow_models.html).
 
 Run the experiments by: 
-```
-sh scripts/run_pre_align.sh
-```
-or
 ```
 python DeepAligned.py --dataset clinc --fraction_of_clusters 1 --known_class_ratio 0.75
 ```
