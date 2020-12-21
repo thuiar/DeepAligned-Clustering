@@ -16,6 +16,9 @@ Get the pre-trained [BERT](https://storage.googleapis.com/bert_models/2018_10_18
 
 Run the experiments by: 
 ```
+sh scripts/run.sh
+```
+```
 python DeepAligned.py --dataset clinc --fraction_of_clusters 1 --known_class_ratio 0.75
 ```
 Selected Parameters
