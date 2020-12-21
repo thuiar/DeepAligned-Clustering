@@ -1,4 +1,4 @@
-from argparse import ArgumentParser
+from utils import *
 
 def init_model():
     parser = ArgumentParser()
