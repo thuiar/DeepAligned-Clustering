@@ -18,10 +18,6 @@ Run the experiments by:
 ```
 sh scripts/run.sh
 ```
-or
-```
-python DeepAligned.py --dataset clinc --fraction_of_clusters 1 --known_class_ratio 0.75 --pretrain --freeze_bert_parameters
-```
 Selected Parameters
 ```
 dataset: clinc | banking
