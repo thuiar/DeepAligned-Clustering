@@ -10,7 +10,7 @@ test_log_dir = 'logs/test/'   + TIMESTAMP
 
 class ModelManager:
     
-    def __init__(self, args, data, pretrained_model):
+    def __init__(self, args, data, pretrained_model=None):
         
         if pretrained_model is None:
             pretrained_model = BertForModel.from_pretrained(args.bert_model, cache_dir = "", num_labels = data.n_known_cls)
@@ -265,11 +265,13 @@ if __name__ == '__main__':
     args = parser.parse_args()
     data = Data(args)
 
-    manager_p = PretrainModelManager(args, data)
     if args.pretrain:
+        manager_p = PretrainModelManager(args, data)
         manager_p.train(args, data)
-
-    manager = ModelManager(args, data, manager_p.model)
+        manager = ModelManager(args, data, manager_p.model)
+    else:
+        manager = ModelManager(args, data)
+        
     manager.train(args,data)
     manager.evaluation(args, data)
     
