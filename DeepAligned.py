@@ -39,10 +39,6 @@ class ModelManager:
         num_train_examples = len(data.train_labeled_examples) + len(data.train_unlabeled_examples)
         self.num_train_optimization_steps = int(num_train_examples / args.train_batch_size) * args.num_train_epochs
         
-        n_gpu = torch.cuda.device_count()
-        if n_gpu > 1:
-            self.model = torch.nn.DataParallel(self.model)
-        
         self.optimizer = self.get_optimizer(args)
 
         self.best_eval_score = 0
