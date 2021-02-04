@@ -56,15 +56,14 @@ The model architecture of DeepAligned:
 | Pre + Reinit      | 82.90 | 45.67 | 55.80 | 68.12 | 31.56 | 41.32 | 
 | Pre + Align   | __93.89__ | __79.75__ | __86.49__ | __79.56__ | __53.64__ | __64.90__ | 
 
-This work is to appear at the [Thirty-Fifth AAAI Conference on Artificial Intelligence](https://aaai.org/Conferences/AAAI-21/) (AAAI2021). An arXiv version for our paper is released [here](https://arxiv.org/pdf/2012.08987.pdf).
 
 If you are instrested and want to use the codes in this work, please **star** this repository and **cite** by:
 ```
-@article{zhang2020discovering,
+@inproceedings{zhang2020discover,
       title={Discovering New Intents with Deep Aligned Clustering}, 
       author={Hanlei Zhang and Hua Xu and Ting-En Lin and Rui Lv},
-      year={2020},
-      journal={arXiv preprint arXiv:2012.08987},
+      booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+      year={2021},
 }
 ```
 ### Acknowledgments
