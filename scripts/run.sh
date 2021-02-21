@@ -9,5 +9,4 @@ do
         --seed $s \
         --freeze_bert_parameters \
         --pretrain
-        
 done
