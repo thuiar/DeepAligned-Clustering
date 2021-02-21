@@ -69,7 +69,7 @@ The model architecture of DeepAligned:
 | Pre + Align   | __93.89__ | __79.75__ | __86.49__ | __79.56__ | __53.64__ | __64.90__ | 
 
 
-If you are instrested in this work or want to use the codes in this repository, please **star** this repository and **cite** by:
+If you are insterested in this work or want to use the codes in this repository, please **star** this repository and **cite** by:
 ```
 @inproceedings{zhang2020discover,
       title={Discovering New Intents with Deep Aligned Clustering}, 
