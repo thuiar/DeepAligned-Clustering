@@ -17,7 +17,9 @@ pip install -r requirements.txt
 ```
 
 ## Model Preparation
-First, get the pre-trained [BERT](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip) model and convert it into [Pytorch](https://huggingface.co/transformers/converting_tensorflow_models.html). Then, set the path (parameter "bert_model" in init_parameter.py) of the uncased-bert model .
+Get the pre-trained [BERT](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip) model and convert it into [Pytorch](https://huggingface.co/transformers/converting_tensorflow_models.html). 
+
+Set the path of the uncased-bert model (parameter "bert_model" in init_parameter.py).
 
 ## Usage
 
