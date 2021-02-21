@@ -1,5 +1,5 @@
-from utils import *
-from models import *
+from util import *
+from model import *
 from dataloader import *
 
 class PretrainModelManager:

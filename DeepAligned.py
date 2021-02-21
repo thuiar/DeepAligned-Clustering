@@ -1,8 +1,8 @@
-from models import *
-from init_parameters import *
+from model import *
+from init_parameter import *
 from dataloader import *
 from pretrain import *
-from utils import *
+from util import *
 
 TIMESTAMP = "{0:%Y-%m-%dT%H-%M-%S/}".format(datetime.now())
 train_log_dir = 'logs/train/' + TIMESTAMP
@@ -189,7 +189,7 @@ class ModelManager:
             nb_tr_examples, nb_tr_steps = 0, 0
             self.model.train()
 
-            for batch in tqdm(train_dataloader, desc="Training(All)"):
+            for batch in tqdm(train_dataloader, desc="Pseudo-Training"):
 
                 batch = tuple(t.to(self.device) for t in batch)
                 input_ids, input_mask, segment_ids, label_ids = batch
@@ -256,18 +256,26 @@ class ModelManager:
         print('test_results', data_diagram)
 
 if __name__ == '__main__':
-    
+
+    print('Data and Parameters Initialization...')
     parser = init_model()
     args = parser.parse_args()
     data = Data(args)
 
     if args.pretrain:
+        print('Pre-training begin...')
         manager_p = PretrainModelManager(args, data)
         manager_p.train(args, data)
+        print('Pre-training finished!')
         manager = ModelManager(args, data, manager_p.model)
     else:
         manager = ModelManager(args, data)
-        
+    
+    print('Training begin...')
     manager.train(args,data)
+    print('Training finished!')
+
+    print('Evaluation begin...')
     manager.evaluation(args, data)
+    print('Evaluation finished!')
     

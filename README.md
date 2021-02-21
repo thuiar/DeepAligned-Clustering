@@ -3,29 +3,40 @@
 A deep aligned clustering method to discover new intents. 
 
 ## Introduction
-This repository provides the PyTorch implementation of the research paper [Discovering New Intents with Deep Aligned Clustering](https://arxiv.org/pdf/2012.08987.pdf) (**Accepted by [AAAI2021](https://aaai.org/Conferences/AAAI-21/)**).
+This repository provides the official PyTorch implementation of the research paper [Discovering New Intents with Deep Aligned Clustering](https://arxiv.org/pdf/2012.08987.pdf) (**Accepted by [AAAI2021](https://aaai.org/Conferences/AAAI-21/)**).
 
-## Usage
-<!--
-Install all required library
+### Dependencies 
+
+We use anaconda to create python environment:
+```
+conda create --name python=3.6
+```
+Install all required libraries:
 ```
 pip install -r requirements.txt
 ```
--->
+
+## Model Preparation
+First, get the pre-trained [BERT](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip) model and convert it into [Pytorch](https://huggingface.co/transformers/converting_tensorflow_models.html). Then, set the path of the uncased-bert model (Hint: parameter "bert_model" in init_parameter.py).
+
+## Usage
 Get the pre-trained [BERT](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip) model and convert it into [Pytorch](https://huggingface.co/transformers/converting_tensorflow_models.html).
 
 Run the experiments by: 
 ```
 sh scripts/run.sh
 ```
-Selected Parameters
+You can change the parameters in the script. The selected parameters are as follows:
 ```
 dataset: clinc | banking
 factor_of_clusters: 1 (default) | 2 | 3 | 4 
 known_class_ratio: 0.25 | 0.5 | 0.75 (default)
 ```
+
+### Model
+
 The model architecture of DeepAligned:
-![Model](model.png "Model")
+![Model](figs/model.png "Model")
 
 
 ##  Results
@@ -57,14 +68,14 @@ The model architecture of DeepAligned:
 | Pre + Align   | __93.89__ | __79.75__ | __86.49__ | __79.56__ | __53.64__ | __64.90__ | 
 
 
-If you are instrested and want to use the codes in this work, please **star** this repository and **cite** by:
+If you are instrested in this work or want to use the codes in this repository, please **star** this repository and **cite** by:
 ```
 @inproceedings{zhang2020discover,
       title={Discovering New Intents with Deep Aligned Clustering}, 
-      author={Hanlei Zhang and Hua Xu and Ting-En Lin and Rui Lv},
+      author={Hanlei Zhang and Hua Xu and Ting-En Lin and Rui Lyu},
       booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
       year={2021},
 }
 ```
 ### Acknowledgments
-This paper is founded by National Natural Science Foundation of China, etc. 
+This paper is founded by seed fund of Tsinghua University (Department of Computer Science and Technology)- Siemens Ltd., China Joint Research Center for Industrial Intelligence and Internet of Things.

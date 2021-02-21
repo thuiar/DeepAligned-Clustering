@@ -1,4 +1,4 @@
-from utils import *
+from util import *
 
 def set_seed(seed):
     random.seed(seed)

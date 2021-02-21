@@ -11,7 +11,7 @@ def init_model():
     parser.add_argument("--pretrain_dir", default='pretrain_models', type=str, 
                         help="The output directory where the model predictions and checkpoints will be written.") 
     
-    parser.add_argument("--bert_model", default="/pretrained_models/uncased_L-12_H-768_A-12", type=str, help="The path for the pre-trained bert model.")
+    parser.add_argument("--bert_model", default="uncased_L-12_H-768_A-12", type=str, help="The path for the pre-trained bert model.")
     
     parser.add_argument("--max_seq_length", default=None, type=int,
                         help="The maximum total input sequence length after tokenization. Sequences longer "

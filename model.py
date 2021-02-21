@@ -1,4 +1,4 @@
-from utils import *
+from util import *
         
 class BertForModel(BertPreTrainedModel):
     def __init__(self,config,num_labels):
