@@ -278,4 +278,6 @@ if __name__ == '__main__':
     print('Evaluation begin...')
     manager.evaluation(args, data)
     print('Evaluation finished!')
+
+    manager.save_results(args)
     
