@@ -4,10 +4,6 @@ from dataloader import *
 from pretrain import *
 from util import *
 
-TIMESTAMP = "{0:%Y-%m-%dT%H-%M-%S/}".format(datetime.now())
-train_log_dir = 'logs/train/' + TIMESTAMP
-test_log_dir = 'logs/test/'   + TIMESTAMP
-
 class ModelManager:
     
     def __init__(self, args, data, pretrained_model=None):

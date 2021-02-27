@@ -71,7 +71,7 @@ The model architecture of DeepAligned:
 
 If you are insterested in this work or want to use the codes in this repository, please **star** this repository and **cite** by:
 ```
-@inproceedings{zhang2020discover,
+@inproceedings{zhang2021discover,
       title={Discovering New Intents with Deep Aligned Clustering}, 
       author={Hanlei Zhang and Hua Xu and Ting-En Lin and Rui Lyu},
       booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
