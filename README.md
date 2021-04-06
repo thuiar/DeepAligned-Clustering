@@ -1,5 +1,5 @@
 # Discovering New Intents with Deep Aligned Clustering
-
+[![HitCount](http://hits.dwyl.com/Hanlei Zhang/DeepAligned-Clustering.svg)](http://hits.dwyl.com/Hanlei Zhang/DeepAligned-Clustering)
 A deep aligned clustering method to discover new intents. 
 
 ## Introduction
