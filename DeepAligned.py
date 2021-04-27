@@ -234,7 +234,7 @@ class ModelManager:
         keys = list(results.keys())
         values = list(results.values())
         
-        file_name = 'results'  + '.csv'
+        file_name = 'results.csv'
         results_path = os.path.join(args.save_results_path, file_name)
         
         if not os.path.exists(results_path):
