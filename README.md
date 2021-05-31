@@ -70,12 +70,7 @@ The model architecture of DeepAligned:
 
 If you are insterested in this work, and want to use the codes or results in this repository, please **star** this repository and **cite** by:
 ```
-@article{zhang2020discovering,
-  title={Discovering New Intents with Deep Aligned Clustering},
-  author={Zhang, Hanlei and Xu, Hua and Lin, Ting-En and Lv, Rui},
-  journal={arXiv preprint arXiv:2012.08987},
-  year={2020}
-}
+@article{Zhang_Xu_Lin_Lyu_2021, title={Discovering New Intents with Deep Aligned Clustering}, volume={35}, number={16}, journal={Proceedings of the AAAI Conference on Artificial Intelligence}, author={Zhang, Hanlei and Xu, Hua and Lin, Ting-En and Lyu, Rui}, year={2021}, month={May}, pages={14365-14373}
 ```
 ### Acknowledgments
 This paper is founded by seed fund of Tsinghua University (Department of Computer Science and Technology)- Siemens Ltd., China Joint Research Center for Industrial Intelligence and Internet of Things.
