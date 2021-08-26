@@ -42,6 +42,9 @@ The model architecture of DeepAligned:
 
 
 ##  Results
+
+The detailed results can be seen in [known_intent_ratio_results.csv](https://github.com/thuiar/DeepAligned-Clustering/blob/main/results/k_results.csv) and [k_results.csv](https://github.com/thuiar/DeepAligned-Clustering/blob/main/results/known_intent_ratio_results.csv).
+
 ### Main experiments
 |   |       | CLINC |       |       |BANKING|       | 
 |:--------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
