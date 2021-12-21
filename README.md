@@ -3,7 +3,7 @@ A deep aligned clustering method to discover new intents.
 
 **The proposed method together with baselines are also integrated into the [open intent discovery](https://github.com/thuiar/TEXTOIR/tree/main/open_intent_discovery) module in our another scalable framework [TEXTOIR](https://github.com/thuiar/TEXTOIR), enjoy it!** 
 
-Related works can refer to the [reading list](https://github.com/thuiar/OKD-Reading-List).
+Related works can refer to the [open knowledge discovery reading list](https://github.com/thuiar/OKD-Reading-List).
 
 ## Introduction
 This repository provides the official PyTorch implementation of the research paper [Discovering New Intents with Deep Aligned Clustering](https://arxiv.org/pdf/2012.08987.pdf) (**Accepted by [AAAI2021](https://aaai.org/Conferences/AAAI-21/)**).
